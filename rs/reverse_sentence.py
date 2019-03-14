@@ -4,10 +4,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 
-@app.route("/analyse/sentiment", methods=['POST'])
-def analyse_sentiment():
+@app.route("/reverse_sentence", methods=['POST'])
+def reverse_sentence():
     sentence = request.get_json()['sentence']
-    polarity = TextBlob(sentence).sentences[0].polarity
+    polarity = sentence[::-1]
     return jsonify(
         sentence=sentence,
         polarity=polarity
