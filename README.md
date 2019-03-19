@@ -16,7 +16,7 @@ The app is listening by default on port 5000. The 5050 port of the host machine 
 
 ```
 
-## Pushing to DockerHub
+## Pushing to Docker Hub
 
 ```
 $ docker push $DOCKER_USER_ID/bp-pythonservice
