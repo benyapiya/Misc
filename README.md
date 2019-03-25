@@ -14,7 +14,6 @@ The app is listening by default on port 5000. The 5050 port of the host machine 
 
 -p 5050:5000 i.e.
 
-```
 
 ## Pushing to DockerHub
 
