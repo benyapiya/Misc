@@ -2,6 +2,6 @@
 
 bpPythonservicePipeline(
   pipelineHost: "129.213.176.249",
-  prodHost: "52.15.255.167",
+  prodHost: "3.19.20.150",
   repo: "bp-pythonservice"
 )
